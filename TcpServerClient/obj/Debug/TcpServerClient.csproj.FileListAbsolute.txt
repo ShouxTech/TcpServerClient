@@ -1,0 +1,15 @@
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\bin\Debug\TcpServerClient.exe.config
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\bin\Debug\TcpServerClient.exe
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\bin\Debug\TcpServerClient.pdb
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\TcpServerClient.csprojAssemblyReference.cache
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\MainWindow.g.cs
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\App.g.cs
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\TcpServerClient_MarkupCompile.cache
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\TcpServerClient_MarkupCompile.lref
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\MainWindow.baml
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\TcpServerClient.g.resources
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\TcpServerClient.Properties.Resources.resources
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\TcpServerClient.csproj.GenerateResource.cache
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\TcpServerClient.csproj.CoreCompileInputs.cache
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\TcpServerClient.exe
+C:\Users\CriShoux\source\repos\TcpServerClient\TcpServerClient\obj\Debug\TcpServerClient.pdb

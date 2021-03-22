@@ -1,0 +1,53 @@
+﻿<Window x:Class="TcpServerClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TcpServerClient"
+        mc:Ignorable="d"
+        Title="TCP Server and Client" Height="370" Width="680" Closed="Window_Closed"
+        MinHeight="370" MinWidth="680">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="portBox" Grid.Column="1" Grid.Row="1" Text="Port" GotFocus="portBox_GotFocus" LostFocus="portBox_LostFocus" TextChanged="portBox_TextChanged"/>
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="inputBox" Grid.Column="0" Text="Data" GotFocus="inputBox_GotFocus" LostFocus="inputBox_LostFocus"/>
+            <Button x:Name="sendBtn" Content="Send" Grid.Column="1" Click="sendBtn_Click"/>
+        </Grid>
+        <Button x:Name="startServerBtn" Content="Start Server" Grid.Column="1" Grid.Row="3" Click="startServerBtn_Click"/>
+        <TextBox x:Name="outputBox" Grid.Column="1" Grid.Row="4" TextWrapping="Wrap" IsReadOnly="True"/>
+
+        <TextBox x:Name="clientPortBox" Grid.Column="2" Grid.Row="1" Text="Port" GotFocus="clientPortBox_GotFocus" LostFocus="clientPortBox_LostFocus"/>
+        <Grid Grid.Column="2" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="clientInputBox" Grid.Column="0" Text="Data" GotFocus="clientInputBox_GotFocus" LostFocus="clientInputBox_LostFocus"/>
+            <Button x:Name="clientSendBtn" Content="Send" Grid.Column="1" Click="clientSendBtn_Click"/>
+        </Grid>
+        <Button x:Name="connectClientBtn" Content="Connect Client" Grid.Column="2" Grid.Row="3" Click="connectClientBtn_Click"/>
+        <TextBox x:Name="clientOutputBox" Grid.Column="2" Grid.Row="4" TextWrapping="Wrap" IsReadOnly="True"/>
+    </Grid>
+</Window>
